@@ -1,4 +1,4 @@
-#Áp dụng cho FAHASA (Test)
+##Áp dụng cho FAHASA (Test)
 Server đặt IP 192.168.1.79/24
 Do có sử dụng --cap-add nên tạm thời deploy bằng Docker compose. Sẽ tìm cách đưa lên Swarm sau.
 
@@ -13,7 +13,7 @@ docker-compose --version
 mkdir -p /data/docker/builds
 cd /data/docker/builds
 yum -y install git
-git clone qhuy199/samba-domain
+git clone https://github.com/qhuy199/samba-domain
 cd samba-domain
 
 [Chạy file compose]
