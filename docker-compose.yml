@@ -7,7 +7,7 @@ networks:
 services:
   samba:
     image: qhuy199/samba-domain
-    container_name: samba3
+    container_name: samba
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /data/docker/containers/samba/data/:/var/lib/samba
