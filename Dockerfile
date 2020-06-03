@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER Fmstrat <fmstrat@NOSPAM.NO>
+MAINTAINER huynq <huynq@NOSPAM.NO>
 
 ENV DEBIAN_FRONTEND noninteractive
 
