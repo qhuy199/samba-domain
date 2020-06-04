@@ -14,7 +14,7 @@ cd samba-domain
 mkdir -p /data/docker/containers/samba/data
 mkdir -p /data/docker/containers/samba/config/samba
 ```
-# Chạy file compose
+# Deploy vào Docker Swarm
 ```
 docker network create samba --scope swarm
 docker stack deploy --compose-file docker-compose.yml samba
