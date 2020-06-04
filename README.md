@@ -9,6 +9,11 @@ yum -y install git
 git clone https://github.com/qhuy199/samba-domain
 cd samba-domain
 ```
+# Tạo nơi lưu trữ (Nếu chưa có)
+```
+mkdir -p /data/docker/containers/samba/data
+mkdir -p /data/docker/containers/samba/config/samba
+```
 # Chạy file compose
 ```
 docker network create samba --scope swarm
