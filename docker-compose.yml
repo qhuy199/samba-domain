@@ -13,7 +13,7 @@ services:
       - /data/docker/containers/samba/config/samba:/etc/samba/external
     environment:
       - DOMAIN=CORP.EXAMPLE.COM
-      - DOMAINPASS=ThisIsMyAdminPassword
+      - DOMAINPASS=P@ssw0rd
       - DNSFORWARDER=8.8.8.8
       - HOSTIP=192.168.1.79
     networks:
